@@ -8,7 +8,7 @@
 <meta content="Гадание на Таро онлайн, приворот, снятие порчи и сглаза — реальная помощь мага" name="description"/>
 <meta content="Дистанционное гадание | Таро • Приворот • Устранение порчи" property="og:title"/>
 <meta content="Точное гадание на картах Таро, мощный приворот и устранение порчи — пишите прямо сейчас" property="og:description"/>
-<meta content="https://raw.githubusercontent.com/antomimpuls/gadaniedar.ru/main/photo.png" property="og:image"/>
+<meta content="https://gadaniedar.ru/photo-1a8210d866964b9281c30b927fd94bb8.jpg" property="og:image"/>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&amp;family=Lora:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <script>
 const SITE_SETTINGS = {
@@ -24,7 +24,7 @@ const SITE_SETTINGS = {
   'telegramEnabled': 1,
   'telegramNickname': 'Angelinagadanie',
   'yandexMetrikaId': '113081368',
-  'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/gadaniedar.ru/main/photo.png',
+  'psychicImageURL': 'https://gadaniedar.ru/photo-1a8210d866964b9281c30b927fd94bb8.jpg',
   'workingHours': 'ежедневно 08:00-22:00',
   'responseTime': '5 минут',
   'metrikaMessengerVisible': false,
@@ -704,6 +704,11 @@ h1{background:linear-gradient(135deg,#ffffff,#8aa5eb 50%,#446c94);-webkit-backgr
 @media(max-width:768px){.hero-img>[class^="magic-"]{inset:-64px!important}}
 /* HERO_MAGIC_REFRESH_END */
 </style>
+
+<style id="studio-photo-fit">
+.studio-photo-backdrop{position:absolute;inset:7px;border-radius:50%;overflow:hidden;z-index:1;background:center/cover no-repeat url("https://gadaniedar.ru/photo-1a8210d866964b9281c30b927fd94bb8.jpg");filter:blur(8px);opacity:.85;pointer-events:none}
+.hero-img #psychicImage{box-sizing:border-box!important;object-fit:contain!important;object-position:center!important;padding:12%!important;background:transparent!important}
+</style>
 </head>
 <body>
 <div class="sticky-messengers" id="stickyMessengers">
@@ -726,7 +731,7 @@ h1{background:linear-gradient(135deg,#ffffff,#8aa5eb 50%,#446c94);-webkit-backgr
 </div>
 <div>
 <div class="hero-img">
-<img alt="Портрет: гадалка" id="psychicImage" src="https://raw.githubusercontent.com/antomimpuls/gadaniedar.ru/main/photo.png"/>
+<span class="studio-photo-backdrop" aria-hidden="true"></span><img alt="Портрет: гадалка" id="psychicImage" src="https://gadaniedar.ru/photo-1a8210d866964b9281c30b927fd94bb8.jpg"/>
 <div class="magic-zodiac"><div class="zodiac-ring"></div><div class="zodiac-symbols">♈♉♊♋♌♍♎♏♐♑♒♓</div></div>
 </div>
 <div class="psychic-name" id="heroName">
